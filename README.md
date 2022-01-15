@@ -2,5 +2,7 @@
 
 # PROJETO ABANDONADO POR FALTA DE TEMPO E MOTIVAÇÃO KKK
 
-. Requisitos
+# Requisitos
+
+- Telethon 
 
