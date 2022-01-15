@@ -29,8 +29,8 @@ def clear():
     
 def banner():
         clear()
-        img = pyfiglet.figlet_format("XDBTC",font="cosmike")
-        by = AZ+"By"+C+" @XDevBR"+F+"\n"
+        img = pyfiglet.figlet_format("WSBTC",font="cosmike")
+        by = AZ+"By"+C+" @WestSideDev"+F+"\n"
         for ani in list(VD+img):
             print(ani,end="")
             sys.stdout.flush()
@@ -42,8 +42,9 @@ def banner():
 
 def conexão():
         system("rm -rf session.session session.session-journal")
-        api_id = 16050424
-        api_hash = '4e8336c50931603e2bfff6b2d2abdceb'
+######## Você pega o ID e o HASH no site de API do Telegram ########
+        api_id = 
+        api_hash = 
         cliente = TelegramClient('session',api_id,api_hash)
         cliente.connect()
         if not cliente.is_user_authorized():
