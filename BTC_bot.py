@@ -29,7 +29,7 @@ def clear():
     
 def banner():
         clear()
-        img = pyfiglet.figlet_format("WSBTC",font="cosmike")
+        img = pyfiglet.figlet_format("BTC_Bot",font="cosmike")
         by = AZ+"By"+C+" @WestSideDev"+F+"\n"
         for ani in list(VD+img):
             print(ani,end="")
